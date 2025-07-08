@@ -2,7 +2,9 @@
 margin: 0;
 padding: 0;
 }
-
+body::-webkit-scrollbar{
+    display: none;
+}
 
 body {
     background-image: url('img/img1.jpg');
@@ -36,13 +38,6 @@ body {
     object-fit: cover; /* imagem preenche a div sem distorcer */
 }
 
-  /* Pode destacar a imagem central se quiser */
-.central {
-    width: 250px;
-    height: 250px;
-    border: 2px solid #fff;
-}
-
 .container2 {
 justify-content: center;
 align-items: center;
@@ -55,13 +50,10 @@ width: calc(1000px - 30%);/* aqui e 900px do texto em si menos as bordas de 30% 
 width: 70%;
 margin: 100px auto;
 
-
 /*max-height: 300px; /* aqui eu coloquei para diminuir o conteiner do texto, mas ele utrapassa outros itens, tenho que colocar o de baixo para barra de rolagem*/
 /*overflow: auto;  /*aqui e a barra de rolagem*/
 
-
 }
-
 
 h1{
     color:black;
@@ -75,41 +67,5 @@ h1{
     font-family: "Forum";
     color: black;
 }
-.p2{
-    font-size: 23px;
-    font-family: "Forum";
-    color: black;
-    background-color:#7c7c7cb0;
-}
-
-.container4 {
-    
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 60%;
-margin: 100px auto;
-
-
-}
-
-
-.container4 img{
-width: 300px;
-height: auto;
-margin:  100px auto;
-}
-
-.h22{
-    color:black;
-    font-size: 35px;
-    padding-bottom: 50px;
-    font-family: "Rowdies" ;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #fff;
-}
-
 
 
